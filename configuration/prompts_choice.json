@@ -1,0 +1,12 @@
+{
+  "options": {
+    "I": "Include for full-text assessment: yes, highly suspected, or difficult to determine.",
+    "E": "Exclude: the title and abstract do not meet the specified inclusion criteria."
+  },
+  "takeshima": {
+    "instructions": "#Inclusion criteria\n1) Research design: Randomized controlled trials (RCTs) at the individual or cluster level, including crossover studies reporting results from the first period.\n2) Target population: Patients with a clinical diagnosis of Bipolar Disorder (BD), type I or type II.\n3) Intervention: Any kind of light therapy, including 'light therapy,' 'bright light therapy,' 'phototherapy,' or chronotherapy in any intensity and color.\n4) Control: Sham treatment (e.g., low-intensity light, dim red light, or negative ion) or treatment as usual (no light treatment).\n\n#Query\nYou are a researcher rigorously screening titles and abstracts of scientific papers for inclusion or exclusion in a review paper.\nDoes the paper with the supplied title and abstract meet the specified research design, target population, intervention and control criteria? If yes, highly suspected, or difficult to determine, answer 'I'. If not, answer 'E'."
+  },
+  "maruki": {
+    "instructions": "#Inclusion criteria\n1) Research design: Randomized controlled trials (RCTs) at the individual or cluster level, including crossover studies before crossover.\n2) Target population: Participants diagnosed with bipolar I or II depression, including mixed features and/or rapid cycling.\n3) Intervention: Adjunctive therapy with second-generation antipsychotics (SGA) or mood stabilizers (MS) during baseline treatment with SGA or MS.\n4) Control: Adjunctive therapy with a placebo during baseline treatment with second-generation antipsychotics (SGA) or mood stabilizers (MS).\n\n#Query\nYou are an excellent researcher rigorously screening titles and abstracts of scientific papers for inclusion or exclusion in a systematic review paper.\nDoes the paper with the supplied title and abstract meet the specified research design, target population, intervention and control criteria? If yes, highly suspected, or difficult to determine, answer 'I'. If not, answer 'E'."
+  }
+}

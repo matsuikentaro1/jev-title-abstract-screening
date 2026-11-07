@@ -1,0 +1,193 @@
+[
+  {
+    "condition": "noul-k1",
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency": 50,
+    "minimumRequestSpacingMs": 55,
+    "pacedTokensPerSecond": 200000,
+    "bundleCharBudget": 90000,
+    "recordsPerRequest": 1,
+    "inputUsdPerMillion": 0.042,
+    "prompt_file": "configuration/prompts_noul.json",
+    "prompt_file_sha256": "51903a5e163df4d3b2722b03bdb3989d674b4188834c01f0838e8d15d0aeaa1f"
+  },
+  {
+    "condition": "noul-k10",
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency": 50,
+    "minimumRequestSpacingMs": 55,
+    "pacedTokensPerSecond": 200000,
+    "bundleCharBudget": 90000,
+    "recordsPerRequest": 10,
+    "inputUsdPerMillion": 0.042,
+    "prompt_file": "configuration/prompts_noul.json",
+    "prompt_file_sha256": "51903a5e163df4d3b2722b03bdb3989d674b4188834c01f0838e8d15d0aeaa1f"
+  },
+  {
+    "condition": "noul-k25",
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency": 50,
+    "minimumRequestSpacingMs": 55,
+    "pacedTokensPerSecond": 200000,
+    "bundleCharBudget": 90000,
+    "recordsPerRequest": 25,
+    "inputUsdPerMillion": 0.042,
+    "prompt_file": "configuration/prompts_noul.json",
+    "prompt_file_sha256": "51903a5e163df4d3b2722b03bdb3989d674b4188834c01f0838e8d15d0aeaa1f"
+  },
+  {
+    "condition": "noul-k50",
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency": 50,
+    "minimumRequestSpacingMs": 55,
+    "pacedTokensPerSecond": 200000,
+    "bundleCharBudget": 90000,
+    "recordsPerRequest": 50,
+    "inputUsdPerMillion": 0.042,
+    "prompt_file": "configuration/prompts_noul.json",
+    "prompt_file_sha256": "51903a5e163df4d3b2722b03bdb3989d674b4188834c01f0838e8d15d0aeaa1f"
+  },
+  {
+    "condition": "choice-v4",
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "concurrency": 50,
+    "minimumRequestSpacingMs": 55,
+    "pacedTokensPerSecond": 200000,
+    "bundleCharBudget": 90000,
+    "recordsPerRequest": 1,
+    "inputUsdPerMillion": 0.042,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-minimal",
+    "rep": 1,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "reasoning_effort": "minimal",
+      "logprobs": false
+    },
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-default",
+    "rep": 1,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-default",
+    "rep": 2,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "repetition": 2,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-default",
+    "rep": 3,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "repetition": 3,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-minimal",
+    "rep": 2,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "reasoning_effort": "minimal",
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "lowest accepted",
+    "repetition": 2,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-5-mini-minimal",
+    "rep": 3,
+    "model": "gpt-5-mini",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "reasoning_effort": "minimal",
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "lowest accepted",
+    "repetition": 3,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-6-astra-default",
+    "rep": 1,
+    "model": "gpt-6-astra",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "repetition": 1,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-6-astra-default",
+    "rep": 2,
+    "model": "gpt-6-astra",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "repetition": 2,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  },
+  {
+    "condition": "gpt-6-astra-default",
+    "rep": 3,
+    "model": "gpt-6-astra",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "concurrency": 50,
+    "parameters": {
+      "logprobs": false
+    },
+    "requestedReasoningEffort": "default",
+    "repetition": 3,
+    "prompt_file": "configuration/prompts_choice.json",
+    "prompt_file_sha256": "6423e50101e70be848a639d4971ad017da38b988b2087700229ce5d8e1feb2e4"
+  }
+]

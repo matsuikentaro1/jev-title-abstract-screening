@@ -1,0 +1,145 @@
+[
+  {
+    "dataset": "takeshima",
+    "paper": "Colombo 2000",
+    "study": "Colombo 2000",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:232"
+    ]
+  },
+  {
+    "dataset": "takeshima",
+    "paper": "Dauphinais 2012",
+    "study": "Dauphinais 2012",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:266"
+    ]
+  },
+  {
+    "dataset": "takeshima",
+    "paper": "Franchini 2009",
+    "study": "Franchini 2009",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:385"
+    ]
+  },
+  {
+    "dataset": "takeshima",
+    "paper": "Yorguner Kupeli 2018",
+    "study": "Yorguner Kupeli 2018",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:651",
+      "takeshima:1358"
+    ]
+  },
+  {
+    "dataset": "takeshima",
+    "paper": "Sit 2018",
+    "study": "Sit 2018",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:1151",
+      "takeshima:1152",
+      "takeshima:1153"
+    ]
+  },
+  {
+    "dataset": "takeshima",
+    "paper": "Zhou 2018",
+    "study": "Zhou 2018",
+    "primary_report": true,
+    "record_ids": [
+      "takeshima:1375",
+      "takeshima:1376",
+      "takeshima:1377",
+      "takeshima:1378"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Houston 2009",
+    "study": "Houston 2009",
+    "primary_report": true,
+    "record_ids": [
+      "maruki:1051"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Loebel 2014",
+    "study": "Loebel 2014",
+    "primary_report": true,
+    "record_ids": [
+      "maruki:1421"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Suppes 2016",
+    "study": "Suppes 2016",
+    "primary_report": true,
+    "record_ids": [
+      "maruki:2736"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Sachs 2011",
+    "study": "Sachs 2011",
+    "primary_report": true,
+    "record_ids": [
+      "maruki:2458"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "van der Loos 2009",
+    "study": "van der Loos 2009",
+    "primary_report": true,
+    "record_ids": [
+      "maruki:2900",
+      "maruki:2904"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "van der Loos 2011",
+    "study": "van der Loos 2009",
+    "primary_report": false,
+    "record_ids": [
+      "maruki:2899",
+      "maruki:2902"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Rajagopalan 2016",
+    "study": "Loebel 2014",
+    "primary_report": false,
+    "record_ids": [
+      "maruki:2364"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Sajatovic 2016",
+    "study": "Loebel 2014",
+    "primary_report": false,
+    "record_ids": [
+      "maruki:2477"
+    ]
+  },
+  {
+    "dataset": "maruki",
+    "paper": "Citrome 2014",
+    "study": "Loebel 2014",
+    "primary_report": false,
+    "record_ids": [
+      "maruki:395"
+    ]
+  }
+]

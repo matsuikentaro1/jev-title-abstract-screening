@@ -1,0 +1,10 @@
+# Original input text is not distributed. Keep any privately restored input out of Git.
+
+1_data/records.json
+1_data/reference_labels.json
+.env
+.env.*
+*.key
+__pycache__/
+.matplotlib/
+results/

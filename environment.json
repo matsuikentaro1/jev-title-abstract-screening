@@ -1,0 +1,23 @@
+{
+  "verified_reanalysis": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "os": "Windows",
+    "architecture": "64 bit (AMD64)",
+    "numerical_analysis_dependencies": "Python standard library only",
+    "optional_figure_dependencies": {
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.3"
+    },
+    "additional_analysis_dependencies": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "matplotlib": "3.11.1 (optional)"
+    }
+  },
+  "historical_experiment_environment": {
+    "api_runners": "Node.js with built-in fetch",
+    "analysis": "Python",
+    "exact_interpreter_versions": "not retained in the experiment records"
+  },
+  "scope": "Versions below describe the verified reanalysis, not the original API experiments."
+}

@@ -1,0 +1,85 @@
+{
+  "fixed_before_final_runs": true,
+  "corrections_and_confirmations": [
+    {
+      "record_id": "maruki:1240",
+      "reference_retained": false,
+      "origin": "current author-confirmed related report"
+    },
+    {
+      "record_id": "maruki:1241",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:1841",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:1973",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:2721",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:714",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:715",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:716",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "maruki:717",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:115",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:140",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:142",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:292",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:703",
+      "reference_retained": false,
+      "origin": "published adjudication in Matsui et al. 2024"
+    },
+    {
+      "record_id": "takeshima:651",
+      "reference_retained": true,
+      "origin": "source-label discrepancy resolved against original reference sheet"
+    },
+    {
+      "record_id": "maruki:794",
+      "reference_retained": false,
+      "origin": "missing reference label resolved by author assessment"
+    }
+  ]
+}
